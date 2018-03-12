@@ -6,3 +6,9 @@ $ python setup.py develop
 ```
 
 Then just `import packtest` in your favorite Python interpreter. Available functions are `sayhello`, `hi`, `saygoodbye`, and `sayonara` in the modules `hello` and `goodbye`.
+
+When you're done having fun uninstall with:
+
+```bash
+$ python setup.py develop --uninstall
+```
